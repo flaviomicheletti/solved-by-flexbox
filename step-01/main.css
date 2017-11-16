@@ -1,0 +1,57 @@
+html {
+    color: #404040;
+    font: 400 1em/1.4 'Open Sans',sans-serif;
+}
+body {
+    margin: 0;
+}
+header {
+    padding: 3em 1.5em;    
+    background-color: hsla(31,15%,50%,.1);
+    text-align: center;
+    color: #404040;
+    font-weight: 600;
+    line-height: 1;
+    word-spacing: .08em;
+}
+header h1 {
+    margin: 0px;
+    font-size: 4em;
+}
+header h2 {
+    margin: 1em 0 2.20em;    
+    font-size: 1.1em;
+    font-weight: 300;
+}
+header a {
+    border: 0;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: none;  
+}
+header em {
+    font-family: serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.btn {
+    padding: .8em 1.5em;
+    border-radius: 2px;
+    background-color: rgba(147, 128, 108, 0.15);    
+    cursor: pointer;
+    font-size: .8125em;    
+    font-weight: 300;
+    line-height: normal;    
+}
+.btn-a {
+    background-color: #46b980;
+    color: #fff;
+    margin-right: 10px
+}
+.btn-b span {
+    color: #00aced;
+}
+.main {
+    max-width: 50em;
+    margin: 0 auto;    
+}
