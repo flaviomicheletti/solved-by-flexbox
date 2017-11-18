@@ -34,6 +34,11 @@ header em {
     font-style: italic;
     font-weight: 400;
 }
+.main {
+    max-width: 50em;
+    margin: 0 auto;    
+}
+
 .btn {
     padding: .8em 1.5em;
     border-radius: 2px;
@@ -51,7 +56,9 @@ header em {
 .btn-b span {
     color: #00aced;
 }
-.main {
-    max-width: 50em;
-    margin: 0 auto;    
+.btn-a:hover {
+    background-color: #389466;
+}
+.btn-b:hover {
+    background: hsla(31,15%,50%,.25);
 }
