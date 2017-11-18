@@ -1,0 +1,170 @@
+html {
+    color: #404040;
+    font: 400 1em/1.4 'Open Sans',sans-serif;
+}
+body {
+    margin: 0;
+}
+
+/*
+ * header
+ */
+header {
+    padding: 3em 1.5em;
+    background-color: hsla(31,15%,50%,.1);
+    text-align: center;
+    color: #404040;
+    font-weight: 600;
+    line-height: 1;
+    word-spacing: .08em;
+}
+header h1 {
+    margin: 0px;
+    font-size: 4em;
+}
+header h2 {
+    margin: 1em 0 2.20em;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+header a {
+    border: 0;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+header em {
+    font-family: serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.btn {
+    padding: .8em 1.5em;
+    border-radius: 2px;
+    background-color: rgba(147, 128, 108, 0.15);
+    cursor: pointer;
+    font-size: .8125em;
+    font-weight: 300;
+    line-height: normal;
+}
+.btn-a {
+    background-color: #46b980;
+    color: #fff;
+    margin-right: 10px
+}
+.btn-b span {
+    color: #00aced;
+}
+.btn-a:hover {
+    background-color: #389466;
+}
+.btn-b:hover {
+    background: hsla(31,15%,50%,.25);
+}
+
+
+/*
+ * content
+ */
+.main {
+    /*! max-width: 50em; */
+    margin: 2em auto;
+    padding: 0 20%;
+}
+.main h2 {
+    text-align: center;
+    font-size: 1.333em;
+}
+.main a {
+    text-decoration: none;
+    color: #46b980;
+    border-bottom: 1px dashed rgba(70,185,128,.5);
+}
+.main a:hover {
+    border-bottom: 1px solid #46b980;
+}
+
+.main:nth-child(2n) {
+    background-color: hsla(31,15%,50%,.1);
+    overflow: hidden;
+}
+
+/*
+ * Showcase
+ */
+.showcase-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+.showcase-flex-item {
+    width: 14em;
+    margin-left: 0;
+    margin-bottom: 1.5em;
+    list-style: none;
+}
+
+li {
+    list-style: square;
+    line-height: 2em;
+    margin-left: 2em;
+}
+li img {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    border: 5px solid #fff;
+}
+li h3, div h3 {
+    text-align: center;
+    margin: .5em .5em;
+    font-size: 0.9em;
+    color: #404040;
+}
+li p {
+    margin: 10px .75em;
+    font-size: .8em;
+    color: #404040;
+    line-height: 1.5em;
+}
+
+/*
+ * Browser Support
+ */
+figure {
+    height: 4pc;
+    width: 4pc;
+    margin: 0 .5em .5em;
+    background: url(images/browser-logos.jpg) no-repeat 0 0;
+        background-position-x: 0px;
+        background-position-y: 0px;
+        background-size: auto auto;
+    background-size: auto 100%;
+}
+.browser-flex-container {
+    display: flex;
+}
+.browser-flex-item {
+    list-style: none;
+    text-align: center;
+}
+figure.browser-chrome {
+    background-position: 0 0;
+}
+figure.browser-opera {
+    background-position: -4pc 0;
+}
+figure.browser-firefos {
+    background-position: -8pc 0;
+}
+figure.browser-safari {
+    background-position: -12pc 0;
+}
+figure.browser-ie {
+    background-position: -16pc 0;
+}
+figure.browser-edge {
+    background-position: -20pc 0;
+}
+
+
