@@ -105,16 +105,6 @@ header em {
     margin: 2em auto;
     padding: 0 5%;
 }
-/*@media screen and (min-width: 364px) {
-    .main {
-        padding: 0 10%;
-    }
-}
-@media screen and (min-width: 768px) {
-    .main {
-        padding: 0 20%;
-    }
-}*/
 .main h2 {
     text-align: center;
     font-size: 1.333em;
@@ -133,7 +123,7 @@ header em {
     overflow: hidden;
 }
 /* suavizando a responsividade */
-.main p, .main h2, .main ul  {
+.main p, .main h2, .main h3, .main ul  {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -171,12 +161,9 @@ header em {
     }
 }
 
-
-
 li {
     list-style: square;
     line-height: 2em;
-    margin-left: 2em;
 }
 li img {
     display: block;
@@ -212,6 +199,9 @@ figure {
 }
 .browser-flex-container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    padding-left: 0px;
 }
 .browser-flex-item {
     list-style: none;
