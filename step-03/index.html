@@ -18,14 +18,14 @@
         </header>
 
         <main>
-            <div class="main">
+            <section>
                 <h2>Introduction</h2>
                 <p>CSS has been lacking proper layout mechanisms for far too long. Transitions, animations, filters, all of these are great and useful additions to the language, but they don't address the major problems that Web developers have been complaining about for what seems like an eternity.</p>
                 <p>Finally, thanks to <a href="http://www.w3.org/TR/css3-flexbox/">Flexbox</a>, we have a solution.</p>
                 <p>This site is not another CSS framework. Instead, its purpose is to showcase problems once hard or impossible to solve with CSS alone, now made trivially easy with Flexbox. And with the recent release of Internet Explorer 11 and Safari 6.1, the latest Flexbox spec is now supported in every modern browser.</p>
                 <p>Check out the demos below. View the styles in the Web inspector or dive into <a href="https://github.com/philipwalton/solved-by-flexbox">the source</a> to see just how easy CSS layout will become once Flexbox becomes mainstream.</p>
-            </div>
-            <div class="main">
+            </section>
+            <section>
                 <h2>Showcase</h2>
                 <ul class="showcase-flex-container">
                     <li class="showcase-flex-item">
@@ -59,8 +59,8 @@
                         <p>This classic problem has been challenging CSS hackers for years, yet none of the historical solutions have fully solved it. With Flexbox, it's finally possible.</p>
                     </li>
                 </ul>
-            </div>
-            <div class="main">
+            </section>
+            <section>
                 <h2>Browser Support</h2>
                 <ul class="browser-flex-container">
                     <li class="browser-flex-item">
@@ -89,16 +89,16 @@
                     <li>Firefox 27 and earlier do not support multi-line flexboxes. See <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=702508">this bug</a> for more details.</li>
                     <li>For a full browser support comparison, check out <a href="http://caniuse.com/flexbox">caniuse.com/flexbox</a></li>
                 </ul>
-            </div>
-            <div class="main">
+            </section>
+            <section>
                 <h2>About the Code</h2>
                 <p>All of the code samples on this site show how to solve a particular design problem with Flexbox. They show just the code that's needed to make the demos work in a spec-compliant browser. Some browsers do not fully comply with the latest version of the spec, so sadly, a few workarounds were necessary.</p>
                 <p>Workarounds for non-compliant browsers are not shown in the code samples, but if you're curious about those implementation details, you can check out the source files. Each demo links to its source, and all browser-specific workarounds are well-documented, so don't be afraid to take a look.</p>
                 <p>The vendor prefixing and translating of current flex properties to their legacy equivalents is all handled by <a href="https://github.com/ai/autoprefixer">autoprefixer</a>. If you're writing Flexbox code and not using autoprefixer, well, you're making a horrible mistake.</p>
                 <p>The class naming convention used in the code samples and source files is taken from <a href="https://github.com/suitcss/suit">SUIT CSS</a>, which is based on BEM methodologies. Each example includes one or more reusable CSS components allowing you to adapt or copy these patterns in to your own projects. Links are provided to their respective components on each example page.</p>
                 <p>If you find a mistake or would like to suggest an additional example, feel free to open an issue or submit a pull request on <a href="https://github.com/philipwalton/solved-by-flexbox">Github</a>.</p>
-            </div>
-            <div class="main">
+            </section>
+            <section>
                 <h2>Translations</h2>
                 <p>The following translations have been graciously provided by the community:</p>
                 <ul>
@@ -107,8 +107,20 @@
                     <li><a href="https://hyunseob.github.io/solved-by-flexbox-kr/">Korean</a></li>
                 </ul>
                 <p>Please note that translations are unofficial and may be inaccurate or out of date. To submit your own translation, please submit a <a href="https://github.com/philipwalton/solved-by-flexbox/pull/new/master">pull request</a> or <a href="https://github.com/philipwalton/solved-by-flexbox/issues/new">open an issue</a> on Github and link to your translated content.</p>
-            </div>
+            </section>
         </main>
+
+        <footer>
+            <p>
+                <span class="Footer-social">
+                    <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=philipwalton&amp;repo=solved-by-flexbox&amp;type=watch&amp;count=true" allowtransparency="true" scrolling="0" width="106px" height="20px" frameborder="0"></iframe><iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 213px; height: 20px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.5069e7f3e4e64c1f4fb5d33d0b653ff6.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=philwalton&amp;show_count=true&amp;show_screen_name=true&amp;size=m&amp;time=1511877508217" data-screen-name="philwalton" frameborder="0"></iframe> <iframe id="twitter-widget-1" scrolling="no" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 60px; height: 20px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.5069e7f3e4e64c1f4fb5d33d0b653ff6.en.html#dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=https%3A%2F%2Fphilipwalton.github.io%2Fsolved-by-flexbox%2F&amp;related=philwalton%3ACreator%20of%20Solved%20by%20Flexbox&amp;size=m&amp;text=A%20showcase%20of%20traditionally%20hard%20CSS%20problems%2C%20easily%20solved%20using%20flexbox.&amp;time=1511877508226&amp;type=share&amp;url=https%3A%2F%2Fphilipwalton.github.io%2Fsolved-by-flexbox%2F&amp;via=philwalton" data-url="https://philipwalton.github.io/solved-by-flexbox/" frameborder="0"></iframe>
+                </span>
+            </p>
+            <p>
+                Created and maintained by <a href="https://philipwalton.com">Philip Walton</a>.
+                Source code and examples released under the <a href="https://github.com/philipwalton/solved-by-flexbox/blob/master/LICENSE">MIT</a> license. Website and documentation licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+            </p>
+        </footer>
 
     </body>
 </html>
